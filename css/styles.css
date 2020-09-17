@@ -79,9 +79,14 @@ h3 {
 
 /* ============ HEADER ============ */
 
-.main-nav {
+.page-header {
   display: flex;
   justify-content: center;
+}
+
+.main-nav {
+  display: flex;
+  width: 1170px;
   align-items: center;
 }
 
@@ -125,9 +130,13 @@ h3 {
   color: var(--main-text-color);
 }
 
+.address {
+  display: flex;
+  margin-left: auto;
+}
+
 .address-list {
   display: flex;
-  margin-left: 331px;
 }
 
 .address-list-item + .address-list-item {
@@ -135,6 +144,7 @@ h3 {
 }
 
 .address-list-link {
+  display: block;
 }
 
 /* ============ END HEADER ============ */
