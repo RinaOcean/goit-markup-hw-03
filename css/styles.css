@@ -105,14 +105,14 @@ h3 {
 
 .page-header {
   border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .page-header .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .page-header .navigation-list {
@@ -180,7 +180,6 @@ h3 {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
-
   text-align: center;
 }
 
@@ -248,17 +247,14 @@ h3 {
 .staff {
   background-color: #f5f4fa;
   margin-top: 94px;
-}
-
-.staff .title {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .staff .container {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
-  padding-bottom: 94px;
 }
 
 .staff-name {
@@ -276,11 +272,11 @@ h3 {
   line-height: 1.188;
   letter-spacing: 0.03em;
   margin-top: 10px;
-  padding-bottom: 30px;
 }
 
 .staff-list-item {
   text-align: center;
+  padding-bottom: 30px;
   background-color: var(--dark-theme-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -290,6 +286,8 @@ h3 {
 /* ============ FOOTER ============ */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
 
@@ -310,11 +308,6 @@ h3 {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--dark-theme-secondary-color);
-}
-
-.footer-nav {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .footer .address {
