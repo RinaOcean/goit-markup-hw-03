@@ -200,6 +200,11 @@ h3 {
 
 /* ============ ADVANTAGES ============ */
 
+.advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .advantages-list-title {
   font-weight: 700;
   font-size: 14px;
@@ -219,7 +224,6 @@ h3 {
 .advantages .container {
   display: flex;
   justify-content: space-between;
-  margin-top: 92px;
 }
 
 .advantages-list-item {
@@ -230,8 +234,12 @@ h3 {
 
 /* ============ WORKS GALLERY ============ */
 
+.gallery {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .gallery .title {
-  margin-top: 94px;
 }
 
 .gallery .container {
@@ -246,7 +254,6 @@ h3 {
 
 .staff {
   background-color: #f5f4fa;
-  margin-top: 94px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -322,9 +329,9 @@ h3 {
 
 /* ============ PORTFOLIO PAGE ============ */
 
-.work-gallery {
-  margin-top: 94px;
-  margin-bottom: 94px;
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .filter-list {
