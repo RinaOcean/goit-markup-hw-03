@@ -134,6 +134,8 @@ h3 {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
+
+  cursor: pointer;
 }
 
 .navigation-list-link:hover,
@@ -354,6 +356,8 @@ h3 {
   height: 50px;
   padding: 6px 22px;
   border-radius: 4px;
+
+  cursor: pointer;
 }
 
 .filter-button:hover {
